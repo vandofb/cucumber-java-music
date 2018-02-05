@@ -11,3 +11,4 @@
 #
 cucumberpro:
   projectname: cucumber-java-skeleton
+  logging: debug
