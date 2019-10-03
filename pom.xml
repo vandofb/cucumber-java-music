@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cucumber</groupId>
-    <artifactId>cucumber-java-skeleton</artifactId>
+    <artifactId>cucumber-java-music</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>Cucumber-Java Skeleton</name>
+    <name>Cucumber-Java for Music Services</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,6 +29,12 @@
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.0.1</version>
         </dependency>
     </dependencies>
 
